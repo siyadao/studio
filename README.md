@@ -11,7 +11,7 @@
 - **macOS（M 芯片）**：`macos-arm64.dmg`，打开后将应用拖入 Applications。
 - **Windows（x64）**：`windows-x64.zip`，完整解压后运行 `siyadao.exe`。
 
-标记为 **Pre-release** 的版本用于测试，不是稳定版。首次启动可能出现系统安全提示：macOS 测试包未进行 Apple 公证，Windows 测试包未进行代码签名。请先确认来源及 `SHA256SUMS.txt`，不要关闭系统安全防护。
+标记为 **Pre-release** 的版本用于测试，不是稳定版。首次启动可能出现系统安全提示：macOS 测试包未进行 Apple 公证，Windows 测试包未进行代码签名。请先确认来源及对应平台的 `SHA256SUMS` 校验文件，不要关闭系统安全防护。
 
 Windows 便携包中的模型 Worker、MCP 桥接器、PDFium 与运行库请勿移除。其他架构以实际发布附件为准。
 
